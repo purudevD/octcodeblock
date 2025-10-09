@@ -16,3 +16,8 @@ except FileNotFoundError as file_err:
     print(file_err)
 
 print("The code will continue")
+email = "received an email from kumarimeena@amazon.com"
+pattern = re.compile(r'([a-z0-9]+)@[a-z]+\.com'
+matches = pattern.finditer(email)
+for match in matches:
+    print(match)
