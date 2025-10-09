@@ -2,6 +2,9 @@ print("Asutosh is a good student!!!")
 # python os_dak_demo.py
 import os
 import re
+# This is the issue
+sentence = "Ramana is 47 years old."
+pattern = re.compile(r'\d+')
 print(os.getcwd())
 os.chdir("C:\\Work\\Python\\Pandas\\")
 print(os.getcwd())
