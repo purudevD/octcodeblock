@@ -21,3 +21,8 @@ pattern = re.compile(r'([a-z0-9]+)@[a-z]+\.com'
 matches = pattern.finditer(email)
 for match in matches:
     print(match)
+
+try:
+    div_zero = (100/0)
+except ZeroDivisionError as zero_div:
+    print(zero_div)
