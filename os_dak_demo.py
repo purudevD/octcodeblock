@@ -24,3 +24,6 @@ pattern = re.compile(r'([a-z0-9]+)@[a-z]+\.com'
 matches = pattern.finditer(email)
 for match in matches:
     print(match)
+
+for i in range(10):
+    print(i)
