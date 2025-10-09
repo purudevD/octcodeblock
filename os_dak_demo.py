@@ -27,3 +27,8 @@ for match in matches:
 
 for i in range(10):
     print(i)
+
+try:
+    div_zero = (100/0)
+except ZeroDivisionError as zero_div:
+    print(zero_div)
