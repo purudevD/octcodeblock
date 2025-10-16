@@ -1,7 +1,7 @@
 print("I am excited to learn Python!")
 print("I am from Bengaluru!!!")
 print("The third print statement!")
-<<<<<<< HEAD
+
 print("creating conflicts witin this branch - 18:38")
 print("creating conflicts within this branch - 18:56")
 print("creating conflicts within this branch - 17:06")
